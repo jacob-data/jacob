@@ -1,0 +1,95 @@
+html
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacob's Github Profile</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8e8f5; /* Light pink background */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #d87093; /* Darker pink for heading */
+        }
+
+        .command-box {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .command-box h3 {
+            margin-top: 0;
+            color: #d87093; /* Darker pink for subheadings */
+        }
+
+        .command-box pre {
+            margin: 0;
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 3px;
+            font-family: monospace;
+            color: #d87093; /* Darker pink for code */
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jacob's Github Profile</h1>
+
+        <div class="command-box">
+            <h3>Git Pull</h3>
+            <pre>git pull</pre>
+            <p>Fetches changes from a remote repository and integrates them into your local branch.</p>
+        </div>
+
+        <div class="command-box">
+            <h3>Git Push</h3>
+            <pre>git push</pre>
+            <p>Uploads local branch commits to a remote repository.</p>
+        </div>
+
+        <div class="command-box">
+            <h3>Git Add</h3>
+            <pre>git add [file/directory]</pre>
+            <p>Stages changes in files for commit. You can add specific files or entire directories.</p>
+        </div>
+
+        <div class="command-box">
+            <h3>Git Commit</h3>
+            <pre>git commit -m "Commit message"</pre>
+            <p>Records changes to the repository. The "-m" flag allows you to include a commit message describing the changes.</p>
+        </div>
+
+        <div class="footer">
+            <p>This is a basic Github profile for Jacob. Explore the world of version control with Git!</p>
+        </div>
+    </div>
+</body>
+</html>
